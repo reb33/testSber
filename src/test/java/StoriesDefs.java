@@ -1,5 +1,6 @@
 
 import cucumber.api.PendingException;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -11,6 +12,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import steps.ScenarioSteps;
 
+import java.util.concurrent.TimeUnit;
+
 import static org.junit.Assert.fail;
 
 /**
@@ -19,17 +22,27 @@ import static org.junit.Assert.fail;
 
 public class StoriesDefs{
 
-//    @Managed(uniqueSession = true, driver="firefox")
-    WebDriver driver= new FirefoxDriver();
+    @Managed(uniqueSession = true, driver="firefox")
+    WebDriver driver;
     private String baseUrl="http://www.sberbank.ru/";
 
     @Steps
     ScenarioSteps scenarioSteps;
 
+    @Before
+    public void setUp() throws Exception {
+//        driver = new FirefoxDriver();
+        System.out.println("Before go");
+        baseUrl = "http://www.sberbank.ru/";
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.get(baseUrl);
+        driver.manage().window().maximize();
+    }
+
     @Given("^На главной странице$")
     public void on_main_page() throws Throwable {
-        driver.get(baseUrl);
-//        scenarioSteps.openMain();
+//        driver.get(baseUrl);
+        scenarioSteps.openMain();
         scenarioSteps.checkMainPage();
 //        throw new PendingException();
 
