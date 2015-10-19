@@ -1,2 +1,2 @@
-16:58:37,525 WARN  Transformer.premain(85) - Deleting database file : C:\Users\kbarylnikov\TestSber\.\serenity\serenity.odb
-16:58:38,439 ERROR Reporter.execute(59) - Reporter : 
+17:40:52,574 WARN  Transformer.premain(85) - Deleting database file : C:\Users\kbarylnikov\TestSber\.\serenity\serenity.odb
+17:42:04,485 ERROR Reporter.execute(59) - Reporter : 
