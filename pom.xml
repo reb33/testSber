@@ -63,12 +63,18 @@
             <artifactId>serenity-cucumber</artifactId>
             <version>1.1.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.18.1</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
+
                 <configuration>
                     <forkMode>once</forkMode>
                     <argLine>-javaagent:serenity.jar -Xms512m -Xmx1024m ${included.packages} ${included.adapters}</argLine>
