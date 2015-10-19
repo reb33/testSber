@@ -8,6 +8,7 @@ import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.junit.After;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import steps.ScenarioSteps;
 
 import static org.junit.Assert.fail;
@@ -18,8 +19,8 @@ import static org.junit.Assert.fail;
 
 public class StoriesDefs{
 
-    @Managed(uniqueSession = true, driver="firefox")
-    WebDriver driver;
+//    @Managed(uniqueSession = true, driver="firefox")
+    WebDriver driver= new FirefoxDriver();
     private String baseUrl="http://www.sberbank.ru/";
 
     @Steps
