@@ -1,7 +1,7 @@
 Feature: StoriesDefs
 
 Scenario: Compare 2 credit cards check procents
-
+  Given На главной странице
   When Перейти на экран Кредитные карты
   Then Проверка перехода на экран Кредитные карты
   When Выбрать 2 кредитные карты
