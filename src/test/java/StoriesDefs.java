@@ -18,8 +18,8 @@ import static org.junit.Assert.fail;
 
 public class StoriesDefs{
 
-//    @Managed(uniqueSession = true, driver="IEXPLORER")
-//    WebDriver driver;
+    @Managed(uniqueSession = true, driver="firefox")
+    WebDriver driver;
 //    private String baseUrl="http://www.sberbank.ru/";
 
     @Steps
