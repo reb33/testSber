@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19b8c8f-6e1d-4ab4-a47b-18675080d230" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\.idea\libraries\Maven__org_slf4j_slf4j_jdk14_1_5_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\.idea\libraries\Maven__org_slf4j_slf4j_nop_1_5_3.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity/serenity.odb" afterPath="$PROJECT_DIR$/serenity/serenity.odb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/CheckCompare.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/CheckCompare.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/StoriesDefs.java" afterPath="$PROJECT_DIR$/src/test/java/StoriesDefs.java" />
+      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\lib\asm-3.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\lib\asm-commons-3.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\lib\dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\lib\java2html.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\lib\jcommon-1.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\lib\jfreechart-1.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\lib\log4j-1.2.15.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\lib\neodatis-odb-1.9-beta-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\kbarylnikov\TestSber\serenity.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity/serenity.log" afterPath="$PROJECT_DIR$/serenity/serenity.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testSber.iml" afterPath="$PROJECT_DIR$/testSber.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testSber.iws" />
@@ -119,8 +122,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3090909">
-              <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.6743802">
+              <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -192,24 +195,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Run Configurations" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RunConfigurationsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="testSber" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="surefire" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -768,7 +753,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3372973" sideWeight="0.49791667" order="6" side_tool="false" content_ui="tabs" />
@@ -776,7 +761,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3326226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3326226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31567568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
@@ -1230,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3090909">
-          <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.6743802">
+          <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
           <folding />
         </state>
       </provider>

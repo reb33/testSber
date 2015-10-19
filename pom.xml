@@ -95,7 +95,7 @@
 
                 <configuration>
                     <forkMode>once</forkMode>
-                    <argLine>-javaagent:serenity.jar -Xms512m -Xmx1024m ${included.packages} ${included.adapters}</argLine>
+                    <argLine>-javaagent:serenity/serenity.jar -Xms512m -Xmx1024m ${included.packages} ${included.adapters}</argLine>
                 </configuration>
 
             </plugin>
