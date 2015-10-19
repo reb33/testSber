@@ -26,7 +26,7 @@ public class StoriesDefs{
     ScenarioSteps scenarioSteps;
 
     @Given("^На главной странице$")
-    public void На_главной_странице() throws Throwable {
+    public void on_main_page() throws Throwable {
 //        driver.get(baseUrl);
         scenarioSteps.openMain();
         scenarioSteps.checkMainPage();
@@ -36,57 +36,57 @@ public class StoriesDefs{
 
 
     @When("^Перейти на экран Кредитные карты$")
-    public void Перейти_на_экран_Кредитные_карты() throws Throwable {
+    public void go_to_credit_cards() throws Throwable {
         scenarioSteps.goToKreditCardsPage();
 //        throw new PendingException();
     }
 
     @Then("^Проверка перехода на экран Кредитные карты$")
-    public void Проверка_перехода_на_экран_Кредитные_карты() throws Throwable {
+    public void check_page_credits_cards() throws Throwable {
         scenarioSteps.checkKreditCardsPage();
 //        throw new PendingException();
     }
 
     @When("^Выбрать (\\d+) кредитные карты$")
-    public void Выбрать_кредитные_карты(int arg1) throws Throwable {
+    public void choise_credit_card(int arg1) throws Throwable {
         scenarioSteps.choiseKreditCards(arg1);
 //        throw new PendingException();
     }
 
 
     @When("^Перейти на экран Сравнение карт$")
-    public void Перейти_на_экран_Сравнение_карт() throws Throwable {
+    public void go_to_compare_cards() throws Throwable {
         scenarioSteps.goToComparePage();
 //        throw new PendingException();
     }
 
     @Then("^Проверка перехода на экран Сравнения карт$")
-    public void Проверка_перехода_на_экран_Сравнения_карт() throws Throwable {
+    public void check_page_compare_cards() throws Throwable {
         scenarioSteps.checkComparePage();
 //        throw new PendingException();
     }
 
     @Then("^Проверка процентов первой карты \"(.*)\"$")
-    public void Проверка_процентов_первой_карты(String arg1) throws Throwable {
+    public void check_procents_first_card(String arg1) throws Throwable {
 
         scenarioSteps.assertTextFirstCardInterest(arg1);
 //        throw new PendingException();
     }
 
     @Then("^Проверка процентов последней карты \"(.*)\"$")
-    public void Проверка_процентов_последней_карты(String arg1) throws Throwable {
+    public void check_procents_last_card(String arg1) throws Throwable {
         scenarioSteps.assertTextLasttCardInterest(arg1);
 //        throw new PendingException();
     }
 
     @When("^Переход на домашнюю страницу$")
-    public void Переход_на_домашнюю_страницу() throws Throwable {
+    public void go_to_home_page() throws Throwable {
         scenarioSteps.goToHomePage();
 //        throw new PendingException();
     }
 
     @Then("^Проверка перехода на домашнюю страницу$")
-    public void Проверка_перехода_на_домашнюю_страницу() throws Throwable {
+    public void check_page_home() throws Throwable {
         scenarioSteps.checkMainPage();
 //        throw new PendingException();
     }
