@@ -20,15 +20,15 @@ public class StoriesDefs{
 
     @Managed(uniqueSession = true, driver="firefox")
     WebDriver driver;
-//    private String baseUrl="http://www.sberbank.ru/";
+    private String baseUrl="http://www.sberbank.ru/";
 
     @Steps
     ScenarioSteps scenarioSteps;
 
     @Given("^На главной странице$")
     public void on_main_page() throws Throwable {
-//        driver.get(baseUrl);
-        scenarioSteps.openMain();
+        driver.get(baseUrl);
+//        scenarioSteps.openMain();
         scenarioSteps.checkMainPage();
 //        throw new PendingException();
 
