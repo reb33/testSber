@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19b8c8f-6e1d-4ab4-a47b-18675080d230" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/CheckCompare.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/CheckCompare.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/StoriesDefs.java" afterPath="$PROJECT_DIR$/src/test/java/StoriesDefs.java" />
     </list>
     <ignored path="testSber.iws" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="StoriesDefs.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StoriesDefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5570248">
-              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.61322314">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,8 +138,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/kbar/pages/AbstractPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/StoriesDefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/CheckCompare.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/StoriesDefs.java" />
       </list>
     </option>
   </component>
@@ -1193,8 +1192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StoriesDefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5570248">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.61322314">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

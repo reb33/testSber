@@ -31,7 +31,7 @@ public class StoriesDefs{
 
     @Before
     public void setUp() throws Exception {
-//        driver = new FirefoxDriver();
+        driver = new FirefoxDriver();
         System.out.println("Before go");
         baseUrl = "http://www.sberbank.ru/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
